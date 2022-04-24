@@ -1,0 +1,76 @@
+html {
+    font-size: 62.5%;
+}
+
+/* PHOTO SECTION */
+.photo {
+    width: 90vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.space-photo {
+    object-fit: cover;
+    width: 100%;
+}
+
+.space-video {
+    display: none;
+}
+
+/* FORM SECTION */
+.date-form {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    display: flex;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT SECTION */
+.title {
+    font-size: 3rem;
+    margin: 2rem 1rem 0rem 1rem;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.description {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .space-photo {
+        height: 34rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .title {
+        font-size: 5rem;
+    }
+
+    .description {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+    }
+
+    .date-form {
+        font-size: 2rem;
+    }
+}
