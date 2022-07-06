@@ -10,7 +10,7 @@ function nasaRequested() {
     let currentDate = new Date().toISOString().slice(0, 10)
     
     const baseUrl = 'https://api.nasa.gov/planetary/apod?api_key=';
-    const apiKey = 'joLMLUkGGtGfVpF6eqK0EYDgKmS0ej5MgqWOrH58';
+    const apiKey = // API KEY HERE
     let newDate = `&date=${dateInput.value}&`;
 
     // This function fetches the data from the nasa api
@@ -34,7 +34,7 @@ function nasaRequested() {
 
         if (data.media_type === 'video') {
             img.src = ''
-            warning.textContent = 'Video Unavailable, Please choose another date'
+            warning.textContent = 'Video Unavailable, please choose another date'
         } else {
             warning.textContent = '';
             img.src = data.url;

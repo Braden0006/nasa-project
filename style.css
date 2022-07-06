@@ -2,6 +2,11 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    color: white;
+    background-color: black;
+}
+
 /* PHOTO SECTION */
 .photo {
     width: 90vw;
@@ -12,6 +17,10 @@ html {
 .space-photo {
     object-fit: cover;
     width: 100%;
+}
+
+.photo-warning {
+    text-align: center;
 }
 
 .space-video {
@@ -49,7 +58,7 @@ html {
 
 .description {
     font-size: 1.6rem;
-    margin-top: 1rem;
+    margin: 1rem 3rem 0 3rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -72,5 +81,9 @@ html {
 
     .date-form {
         font-size: 2rem;
+    }
+
+    .photo-warning {
+        font-size: 1.8rem;
     }
 }
